@@ -1073,7 +1073,6 @@ Transform:
   - {fileID: 722585509}
   - {fileID: 1377278498}
   - {fileID: 1475665765}
-  - {fileID: 1175219214}
   - {fileID: 469516416}
   - {fileID: 1353365907}
   m_Father: {fileID: 0}
@@ -1091,7 +1090,7 @@ GameObject:
   - component: {fileID: 1175219216}
   - component: {fileID: 1175219215}
   m_Layer: 0
-  m_Name: Cube (7)
+  m_Name: Barracks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1106,11 +1105,11 @@ Transform:
   m_GameObject: {fileID: 1175219213}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.3283105, y: -4.3124895, z: 2.1}
+  m_LocalPosition: {x: 43.63, y: 3.1999998, z: 14.75}
   m_LocalScale: {x: 5.5106826, y: 3.7936628, z: 6.1407}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1174049387}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1175219215
 BoxCollider:
@@ -1156,7 +1155,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: e2f7a23742d5f9f419ea6c0281c51b1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1629,3 +1628,4 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 1174049387}
   - {fileID: 922581522}
+  - {fileID: 1175219214}
